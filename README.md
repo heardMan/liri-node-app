@@ -22,7 +22,7 @@ The following sections discuss each of the built in methods in detail.
 
 3. movie-this
 
-![Image of movie-this input/output](https://octodex.github.com/images/yaktocat.png)
+![Image of movie-this input/output](https://github.com/heardMan/liri-node-app/blob/master/spotify-this-song.png)
 
 4. do-what-it-says
 
