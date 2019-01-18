@@ -18,7 +18,7 @@ The following sections discuss each of the built in methods in detail.
 
 2. spotify-this-song
 
-![Image of spotify-this-song input/output](https://octodex.github.com/images/yaktocat.png)
+![Image of spotify-this-song input/output](liri-node-app/spotify-this-song.png)
 
 3. movie-this
 
