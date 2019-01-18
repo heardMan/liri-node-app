@@ -20,6 +20,7 @@ function concertThis(input) {
             console.log(concert.venue.name);
             console.log(`${concert.venue.city}, ${concert.venue.region} ${concert.venue.country}`);
             console.log(concert.datetime);
+            console.log(' ');
         })
         console.log();
     });
@@ -43,6 +44,8 @@ function spotifyThisSong(input) {
             artists.forEach(function (artist) {
                 console.log(`${artist.name}`);
             });
+            console.log(`Preview Song: ${track.preview_url}`);
+            console.log(' ');
         });
     });
 }
@@ -55,8 +58,6 @@ function movieThis(input) {
     axios.get(queryString)
         .then(function (response) {
             var data = response.data;
-            //console.log(data);
-
             console.log(`Title: ${data.Title}`);
             console.log(`Year: ${data.imdbRating}`);
             console.log(`Year: ${data.Ratings.source}`);
@@ -66,7 +67,7 @@ function movieThis(input) {
             var actors = data.Actors;
             console.log(`Actors:`);
             console.log(actors);
-
+            console.log(' ');
 
         }).catch(function (err) {
             if (err) throw err;
