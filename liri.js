@@ -8,7 +8,7 @@ var moment = require('moment');
 var fs = require('fs');
 
 var command = process.argv[2];
-var input = process.argv[3];
+var input = process.argv.slice(3).join(" ").toLowerCase();
 
 function concertThis(input) {
     var queryString = `https://rest.bandsintown.com/artists/${input}/events?app_id=codingbootcamp`;
@@ -59,11 +59,11 @@ function movieThis(input) {
         .then(function (response) {
             var data = response.data;
             console.log(`Title: ${data.Title}`);
-            console.log(`Year: ${data.imdbRating}`);
-            console.log(`Year: ${data.Ratings.source}`);
-            console.log(`Year: ${data.Country}`);
-            console.log(`Year: ${data.Language}`);
-            console.log(`Year: ${data.Plot}`);
+            console.log(`IMDB Rating: ${data.imdbRating}`);
+            console.log(`Rotten Tomatoes Rating: ${data.Ratings[1].Value}`);
+            console.log(`Country: ${data.Country}`);
+            console.log(`Language: ${data.Language}`);
+            console.log(`Plot Summary: ${data.Plot}`);
             var actors = data.Actors;
             console.log(`Actors:`);
             console.log(actors);

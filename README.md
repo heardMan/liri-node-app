@@ -20,8 +20,8 @@ There are two main components of the concert-this command:
 
 A. the command which is initiated by simply typing concert-this into your command line (don't forget the hyphen!)
 
-B. the request parameter, in order to ensure that concert-this accepts you entire request please make sure to wrap your request in either single double quotes --
-For Example: If you wanted to search for concerts featuring the Red Hot Chili Peppers you would type --> 'The Red Hot Chili Peppers' 
+B. request parameter  
+Example: If you wanted to search for concerts featuring the Red Hot Chili Peppers you would type --> 'The Red Hot Chili Peppers' 
 
 And you can see there is a list of recent and future concerts featuring the Red Hot Chili Peppers
 
@@ -36,8 +36,9 @@ There are two main components of the spotify-this-song command:
 
 A. the command which is initiated by simply typing spotify-this-song into your command line (don't forget the hyphens!)
 
-B. the request parameter, in order to ensure that spotify-this-song accepts you entire request please make sure to wrap your request in either single double quotes --
-For Example: If you wanted to search for the song Full Clip --> 'Full Clip' 
+B. the request parameter
+
+Example: If you wanted to search for the song Full Clip --> 'Full Clip' 
 
 And you can see there is a list of published songs named Full Clip and the relevant publication information such as the alubumn the song was published on, the performer, and the year it was released.
 
@@ -51,8 +52,8 @@ There are two main components of the movie-this command:
 
 A. the command which is initiated by simply typing movie-this into your command line (don't forget the hyphen!)
 
-B. the request parameter, in order to ensure that movie-this accepts you entire request please make sure to wrap your request in either single double quotes --
-For Example: If you wanted to search for the song Full Clip --> 'The Big Lebowski' 
+B. the request parameter 
+Example: If you wanted to search for the song Full Clip --> 'The Big Lebowski' 
 
 And you can see there is a list of published songs named The Big Lebowski and the relevant publication information such as the alubumn the song was published on, the performer, and the year it was released.
 
